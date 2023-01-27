@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- main css file -->
+    <link rel="stylesheet" href="css/style.min.css" />
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header wow animate__animated animate__fadeInDown">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="header-logo">
+                    <a href="index.html" class="header-logo__link">
+                        <img src="img/header-logo.svg" alt="Logo" class="header-logo" />
+                    </a>
+                </div>
+                <div class="menu" id="menu">
+                    <ul class="menu__list">
+                        <li>
+                            <a href="catalog.html" class="menu__link">
+                                <div class="menu__cross">
+                                    <span></span>
+                                </div>
+                                Каталог
+                            </a>
+                            <span class="arrow"></span>
+                            <ul class="sub-menu__list">
+                                <li>
+                                    <a href="filters-mann.html" class="sub-menu__link"> Фильтры MANN </a>
+                                    <span class="sub-menu__arrow arrow"></span>
+                                    <ul class="sub-sub-menu__list">
+                                        <li>
+                                            <a href="air-filters.html" class="sub-sub-menu__link">Воздушные фильтры</a>
+                                        </li>
+                                        <li>
+                                            <a href="oil-filters.html" class="sub-sub-menu__link">Масляные фильтры</a>
+                                        </li>
+                                        <li>
+                                            <a href="fuel-filters.html" class="sub-sub-menu__link">Топливные фильтры</a>
+                                        </li>
+                                        <li>
+                                            <a href="cabin-filters.html" class="sub-sub-menu__link">Салонные фильтры</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="sub-sub-menu__link">Наименование</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="sub-sub-menu__link">Наименование</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="hemo.html" class="sub-menu__link">Хемосил</a>
+                                    
+                                    <span class="sub-menu__arrow arrow"></span>
+                                    <ul class="sub-sub-menu__list">
+                                        <li>
+                                            <a href="hemo211.html" class="sub-sub-menu__link">Хемосил 211</a>
+                                        </li>
+                                        <li>
+                                            <a href="hemo411.html" class="sub-sub-menu__link">Хемосил 411</a>
+                                        </li>
+                                        <li>
+                                            <a href="hemo255.html" class="sub-sub-menu__link">Хемосил 225</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="sibmaster.html" class="sub-menu__link">Мотосноуборды</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <form action="#" class="header-form">
+                    <div class="header-form-wrapper">
+                        <img src="img/search-icon.svg" alt="Search" class="header-form-icon" />
+                        <input type="text" class="header-form-type" />
+                    </div>
+                    <button class="btn header-form-btn">Найти</button>
+                </form>
+                <nav class="header-links">
+                    <a href="about.html" class="header-link">О компании</a>
+                    <a href="delivery.html" class="header-link">Доставка и оплата</a>
+                </nav>
+                <a href="tel:+77051034661" class="header-callback">
+                    <p class="header-phone">+7 (705) 103-46-61</p>
+                    <span>Обратный звонок</span>
+                </a>
+                <div class="header__mobile-arrow">
+                    <span></span>
+                </div>
+                <div class="header__mobile">
+                    <div class="header__mobile-wrapper">
+                        <div class="header__mobile-top">
+                            <a href="tel:87051034661" class="header__mobile-num header-links">+7 (705) 103-46-61</a>
+                            <div class="header__mobile-burger">
+                                <nav class="header-links">
+                                    <a href="about.html" class="header-link">О компании</a>
+                                    <a href="delivery.html" class="header-link">Доставка и оплата</a>
+                                </nav>
+                                <button class="menu" id="menu">
+                                    <ul class="menu__list">
+                                        <li>
+                                            <div class="menu__link" id="changeColor">
+                                                <div class="menu__cross">
+                                                    <span></span>
+                                                </div>
+                                                Каталог
+                                            </div>
+                                            <span class="arrow lesspace"></span>
+
+
+                                            <ul class="sub-menu__list">
+                                                <li>
+                                                    <a href="filters-mann.html" class="sub-menu__link"> Фильтры MANN
+                                                    </a>
+                                                    <span class="sub-menu__arrow arrow"></span>
+                                                    <ul class="sub-sub-menu__list">
+                                                        <li>
+                                                            <a href="air-filters.html"
+                                                                class="sub-sub-menu__link">Воздушные фильтры</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="oil-filters.html"
+                                                                class="sub-sub-menu__link">Масляные фильтры</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="fuel-filters.html"
+                                                                class="sub-sub-menu__link">Топливные фильтры</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="cabin-filters.html"
+                                                                class="sub-sub-menu__link">Салонные фильтры</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="sub-sub-menu__link">Наименование</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="sub-sub-menu__link">Наименование</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="hemo.html" class="sub-menu__link">Хемосил</a>
+                                                    <div class="sub-menu__arrow arrow"></div>
+                                                    <ul class="sub-sub-menu__list">
+                                                        <li>
+                                                            <a href="hemo211.html"
+                                                                class="sub-sub-menu__link">Хемосил 211</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="hemo411.html"
+                                                                class="sub-sub-menu__link">Хемосил 411</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="hemo225.html"
+                                                                class="sub-sub-menu__link">Хемосил 225</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="sibmaster.html" class="sub-menu__link">Мотосноуборды</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__mobile-form">
+                <form action="#" class="header-form">
+                    <div class="header-form-wrapper">
+                        <img src="img/search-icon.svg" alt="Search" class="header-form-icon" />
+                        <input type="text" class="header-form-type" />
+                    </div>
+                    <button class="btn header-form-btn">Найти</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <!-- content -->
+    <main class="main">
+        <div class="promo-mob">
+            <section class="promo">
+                <div class="promo-main">
+                    <div class="container__small">
+                        <div class="promo-wrapper">
+                            <h1 class="promo-title">Ищите дефицитный товар? Мы поможем!</h1>
+                            <h2 class="promo-subtitle">
+                                Оптовые и розничные продажи из наличия<br> и под заказ.
+                            </h2>
+                            <div class="promo-text__wrapper">
+                                <div class="promo-bottom__elem">
+                                    Более 1000 уникальных товаров на складе
+                                </div>
+                                <div class="promo-bottom__elem">
+                                    Поиск товара по индивидуальному запросу
+                                </div>
+                                <div class="promo-bottom__elem">
+                                    Доставка по Казахстану,<br> СНГ и всему миру
+                                </div>
+                            </div>
+                            <div class="promo-btn__wrapper">
+                                <button class="promo-btn" id="promoBtn" onclick="return openModal()">
+                                    Оставить заявку
+                                </button>
+                                <a href="catalog.html">
+                                    <button class="promo-catalog">
+                                        Перейти в каталог
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="promo-bottom wow animate__animated animate__fadeInUp">
+                    <div class="container__small">
+                        <div class="promo-bottom__wrapper">
+                            <div class="promo-bottom__elem">
+                                Более 1000 уникальных товаров на складе
+                            </div>
+                            <div class="promo-bottom__elem">
+                                Поиск товара по индивидуальному запросу
+                            </div>
+                            <div class="promo-bottom__elem">
+                                Доставка по Казахстану,<br> СНГ и всему миру
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="promo-btn__mobile">
+                <button class="promo-btn" id="promoBtn" onclick="return openModal()">
+                    Оставить заявку
+                </button>
+                <a href="catalog.html">
+                    <button class="promo-catalog">
+                        Перейти в каталог
+                    </button>
+                </a>
+            </div>
+        </div>
+        <section class="brands">
+            <div class="container__small">
+                <div class="brands__wrapper">
+                    <div class="brands__top">
+                        <h1 class="brands__title wow animate__animated animate__fadeInDown">
+                            Бренды
+                        </h1>
+                        <a href="catalog.html" class="brands__more">
+                            Смотреть все
+                        </a>
+                    </div>
+                    <div class="swiper-main__container">
+                        <div class="swiper swiper-brands">
+                            <div class="swiper-wrapper">
+                                <a href="filters-mann.html" class="swiper-slide">
+                                    <div class="swiper-item">
+                                        <img src="img/brands-logo1.png" alt="brand">
+                                    </div>
+                                </a>
+                                <a href="hemo.html" class="swiper-slide">
+                                    <div class="swiper-item">
+                                        <img src="img/brands-logo-2.png" alt="brand">
+                                    </div>
+                                </a>
+                                <a href="#" class="swiper-slide">
+                                    <div class="swiper-item">
+                                        <img src="img/brands-logo3.png" alt="brand">
+                                    </div>
+                                </a>
+                                <a href="" class="swiper-slide">
+                                    <div class="swiper-item">
+                                        <img src="img/brands-logo1.png" alt="brand">
+                                    </div>
+                                </a>
+                                <a href="" class="swiper-slide">
+                                    <div class="swiper-item">
+                                        <img src="img/brands-logo1.png" alt="brand">
+                                    </div>
+                                </a>
+                                <a href="" class="swiper-slide">
+                                    <div class="swiper-item">
+                                        <img src="img/brands-logo1.png" alt="brand">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev brands-button-prev"></div>
+                        <div class="swiper-button-next brands-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="goods">
+            <div class="container__small">
+                <div class="goods__wrapper">
+                    <div class="goods__top">
+                        <h1 class="goods__title wow animate__animated animate__fadeInDown">
+                            Популярные товары
+                        </h1>
+                        <a href="#" class="goods__more">
+                            Смотреть все
+                        </a>
+                    </div>
+                    <div class="swiper-main__container">
+                        <div class="swiper swiper-goods">
+                            <div class="swiper-wrapper">
+                                <a href="filters-mann.html" class="swiper-slide">
+                                    <div class="swiper-item">
+                                        <img src="img/goods1.png" alt="brand">
+                                        <p>Фильтры MANN воздушные</p>
+                                    </div>
+                                </a>
+                                <a href="hemo.html" class="swiper-slide">
+                                    <div class="swiper-item">
+                                        <img src="img/goods2.png" alt="goods">
+                                        <p>Хемосил 211</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="swiper-slide">
+                                    <div class="swiper-item">
+                                        <img src="img/goods3.png" alt="goods">
+                                        <p>Мотосноуборды</p>
+                                    </div>
+                                </a>
+                                <a href="" class="swiper-slide">
+                                    <div class="swiper-item">
+                                        <img src="img/goods1.png" alt="goods">
+                                        <p>Фильтры MANN воздушные</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev goods-button-prev"></div>
+                        <div class="swiper-button-next goods-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="form">
+            <div class="form-background">
+                <div class="container">
+                    <div class="form-wrapper wow animate__animated animate__fadeInLeft">
+                        <div class="form-left-side">
+                            <img src="img/form-face.svg" alt="face" class="form-advisor">
+                            <h1 class="form-hidden">Если вы не нашли нужного товара
+                                в каталоге - оставьте заявку,<br>
+                                мы постараемся Вам помочь.
+                            </h1>
+                        </div>
+                        <div class="form-content">
+                            <h1>Если вы не нашли нужного товара
+                                в каталоге - оставьте заявку,<br>
+                                мы постараемся Вам помочь.
+                            </h1>
+                            <form class="form-main">
+                                <input type="text" class="form-space" placeholder="Ваше имя">
+                                <input type="tel" id="inputPhone" class="form-space phone" placeholder="Номер телефона"
+                                    data-phone-pattern />
+                                <input type="email" class="form-space" placeholder="E-mail">
+                                <textarea id="javascript:void(0)" name="" cols="30" rows="10" class="form-textspace"
+                                    placeholder="Что необходимо найти?"></textarea>
+                                <button type="button" class="form-btn"
+                                    onclick="return openFeedBackSign()">Отправить</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="benefits">
+            <div class="container">
+                <div class="benefits__wrapper">
+                    <h1 class="benefits-title wow animate__animated animate__fadeInDown">
+                        Наши преимущества
+                    </h1>
+                    <div class="benefits__grid">
+                        <div class="benefits-item wow animate__animated animate__fadeInUp">
+                            <img src="img/benefits1.svg" alt="benefits">
+                            <p>
+                                Оптовые и розничные продажи
+                                ориентированные на
+                                корпративных и частных
+                                клиентов
+                            </p>
+                        </div>
+                        <div class="benefits-item wow animate__animated animate__fadeInDown">
+                            <img src="img/benefits2.svg" alt="benefits">
+                            <p>
+                                Индивидуальный подход к
+                                каждому клиенту. Осуществляем
+                                поиск товаров по Вашему
+                                запросу
+                            </p>
+                        </div>
+                        <div class="benefits-item wow animate__animated animate__fadeInUp">
+                            <img src="img/benefits3.svg" alt="benefits">
+                            <p>
+                                Предлагаемый товар имеет все
+                                необходимые сертификаты
+                                соответствия и гарантии
+                                качества
+                            </p>
+                        </div>
+                        <div class="benefits-item wow animate__animated animate__fadeInDown">
+                            <img src="img/benefits4.svg" alt="benefits">
+                            <p>
+                                Продажа товаров<br>
+                                осуществляется как из наличия,
+                                так и под заказ
+                                у наших партнёров
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="partners">
+            <div class="container">
+                <div class="partners__wrapper">
+                    <h1 class="partners-title wow animate__animated animate__fadeInDown">
+                        Наши партнёры
+                    </h1>
+                    <div class="partners__grid">
+                        <div class="partners-item wow animate__animated animate__fadeInDown">
+                            <img src="img/partners1.svg" alt="partners">
+                        </div>
+                        <div class="partners-item wow animate__animated animate__fadeInUp">
+                            <img src="img/partners2.svg" alt="partners">
+                        </div>
+                        <div class="partners-item wow animate__animated animate__fadeInDown">
+                            <img src="img/partners3.png" alt="partners">
+                        </div>
+                        <div class="partners-item wow animate__animated animate__fadeInUp">
+                            <img src="img/partners4.svg" alt="partners">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="certificates">
+            <div class="container__small">
+                <div class="certificates__wrapper">
+                    <h1 class="certificates-title">
+                        Сертификаты
+                    </h1>
+                    <div class="certificates__grid">
+                        <div class="certificates-item">
+                            <img src="img/certificates1.svg" alt="certificates">
+                        </div>
+                        <div class="certificates-item">
+                            <img src="img/certificates2.svg" alt="certificates">
+                        </div>
+                        <div class="certificates-item">
+                            <img src="img/certificates3.svg" alt="certificates">
+                        </div>
+                    </div>
+                    <div class="swiper-main__container">
+                        <div class="swiper swiper-certificate">
+                            <div class="swiper-wrapper">
+                                <img src="img/certificates1.svg" alt="" class="swiper-slide certificate-slide">
+                                <img src="img/certificates2.svg" alt="" class="swiper-slide certificate-slide">
+                                <img src="img/certificates3.svg" alt="" class="swiper-slide certificate-slide">
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev certificate-button-prev"></div>
+                        <div class="swiper-button-next certificate-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <button class="arrow-up" onclick="return up()">
+            <img src="img/arrow-up.svg" alt="">
+        </button>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <a href="index.html">
+                    <img src="img/footer-logo.svg" alt="logo" class="footer-logo">
+                </a>
+                <div class="footer-inner">
+                    <div class="footer-contact">
+                        <a href="tel:+77051034661" class="footer-contact__link footer-contact__wrapper">
+                            <img src="img/tel.svg" alt="tel">
+                            <p>+7 (705) 103-46-61</p>
+                        </a>
+                        <a href="https://wa.me/87051034661" class="footer-contact__link footer-contact__wrapper">
+                            <img src="img/social.svg" alt="icon">
+                            <p>Написать на WhatsApp</p>
+                        </a>
+                        <a href="https://t.me/" class="footer-contact__link footer-contact__wrapper">
+                            <img src="img/telegram.svg" alt="icon">
+                            <p>Написать в Telegram</p>
+                        </a>
+                    </div>
+                    <div class="footer-location">
+                        <a href="mailto:mayllp1959@gmail.com" class="footer-location__link footer-contact__wrapper">
+                            <img src="img/email.svg" alt="mail">
+                            <p>mayllp1959@gmail.com</p>
+                        </a>
+                        <a href="#" class="footer-location__link footer-contact__wrapper">
+                            <img src="img/location.svg" alt="location">
+                            <p>г. Кокшетау, ул. Т. Сулейменова 25 А.</p>
+                        </a>
+                    </div>
+                    <div class="footer-nav">
+                        <a href="about.html">О компании</a>
+                        <a href="delivery.html">Доставка</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="modal" id="modal">
+        <div class="modal-backdrop" id='modal-backdrop' onclick="return closeModal()"></div>
+        <div class="modal-inner">
+            <img src="img/modal-close.svg" alt="close" class="modal-close-btn" onclick="return closeModal()">
+            <div class="modal-top">
+                Оставьте заявку и мы свяжемся с вами в ближайшее время
+            </div>
+            <form class="modal_form" id="form">
+                <input type="text" placeholder="Ваше имя" id='name' class="modal_name" required="required" />
+                <input type="text" placeholder="Номер телефона" class="modal_phone" required="required">
+                <input type="text" placeholder="E-mail" class="modal_name" required="required">
+                <textarea name="" id="javascript:void(0)" cols="30" rows="10" class="modal_name"
+                    placeholder="Что необходимо найти?"></textarea>
+                <button type='submit' class="modal_button btn-click" onclick="return openFeedBack()">Отправить</button>
+            </form>
+        </div>
+    </div>
+    <div class="modal-feedback" id="modal-feedback">
+        <div class="modal-feedback-backdrop" id='modal-feedback-backdrop' onclick="return closeFeedback()"></div>
+        <div class="modal-feedback-inner">
+            <div class="modal-feedback-top">Заявка отправлена!</div>
+            <div class="modal-feedback-wr">
+                <button class='modal-feedback-button' onclick="return closeFeedback()">Ок</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- header scripts -->
+    <script src="js/header.js"></script>
+    <script src="js/menu.js"></script>
+    <!-- validation of phone number in forms -->
+    <script src="js/validationNumberPhone.js"></script>
+    <!-- brands goods certificates sections sliders -->
+    <script src="js/swiper.js"></script>
+    <script src="js/goods.js"></script>
+    <script src="js/certic.js"></script>
+    <!-- modal opens by clicking button in prom section -->
+    <script src="js/modal.js"></script>
+    
+    <script src="js/scroll-up.js"></script>
+    <!-- init animation -->
+    <script src="js/wow-init.js"></script>
+</body>
+
+</html>

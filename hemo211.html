@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/hemo.min.css" />
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header wow animate__animated animate__fadeInDown">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="header-logo">
+                    <a href="index.html" class="header-logo__link">
+                        <img src="img/header-logo.svg" alt="Logo" class="header-logo" />
+                    </a>
+                </div>
+                <div class="menu" id="menu">
+                    <ul class="menu__list">
+                        <li>
+                            <a href="catalog.html" class="menu__link">
+                                <div class="menu__cross">
+                                    <span></span>
+                                </div>
+                                Каталог
+                            </a>
+                            <span class="arrow"></span>
+                            <ul class="sub-menu__list">
+                                <li>
+                                    <a href="filters-mann.html" class="sub-menu__link"> Фильтры MANN </a>
+                                    <span class="sub-menu__arrow arrow"></span>
+                                    <ul class="sub-sub-menu__list">
+                                        <li>
+                                            <a href="air-filters.html" class="sub-sub-menu__link">Воздушные фильтры</a>
+                                        </li>
+                                        <li>
+                                            <a href="oil-filters.html" class="sub-sub-menu__link">Масляные фильтры</a>
+                                        </li>
+                                        <li>
+                                            <a href="fuel-filters.html" class="sub-sub-menu__link">Топливные фильтры</a>
+                                        </li>
+                                        <li>
+                                            <a href="cabin-filters.html" class="sub-sub-menu__link">Салонные фильтры</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="sub-sub-menu__link">Наименование</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="sub-sub-menu__link">Наименование</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="hemo.html" class="sub-menu__link">Хемосил</a>
+                                    
+                                    <span class="sub-menu__arrow arrow"></span>
+                                    <ul class="sub-sub-menu__list">
+                                        <li>
+                                            <a href="hemo211.html" class="sub-sub-menu__link">Хемосил 211</a>
+                                        </li>
+                                        <li>
+                                            <a href="hemo411.html" class="sub-sub-menu__link">Хемосил 411</a>
+                                        </li>
+                                        <li>
+                                            <a href="hemo255.html" class="sub-sub-menu__link">Хемосил 225</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="sibmaster.html" class="sub-menu__link">Мотосноуборды</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <form action="#" class="header-form">
+                    <div class="header-form-wrapper">
+                        <img src="img/search-icon.svg" alt="Search" class="header-form-icon" />
+                        <input type="text" class="header-form-type" />
+                    </div>
+                    <button class="btn header-form-btn">Найти</button>
+                </form>
+                <nav class="header-links">
+                    <a href="about.html" class="header-link">О компании</a>
+                    <a href="delivery.html" class="header-link">Доставка и оплата</a>
+                </nav>
+                <a href="tel:+77051034661" class="header-callback">
+                    <p class="header-phone">+7 (705) 103-46-61</p>
+                    <span>Обратный звонок</span>
+                </a>
+                <div class="header__mobile-arrow">
+                    <span></span>
+                </div>
+                <div class="header__mobile">
+                    <div class="header__mobile-wrapper">
+                        <div class="header__mobile-top">
+                            <a href="tel:87051034661" class="header__mobile-num header-links">+7 (705) 103-46-61</a>
+                            <div class="header__mobile-burger">
+                                <nav class="header-links">
+                                    <a href="about.html" class="header-link">О компании</a>
+                                    <a href="delivery.html" class="header-link">Доставка и оплата</a>
+                                </nav>
+                                <button class="menu" id="menu">
+                                    <ul class="menu__list">
+                                        <li>
+                                            <div class="menu__link" id="changeColor">
+                                                <div class="menu__cross">
+                                                    <span></span>
+                                                </div>
+                                                Каталог
+                                            </div>
+                                            <span class="arrow lesspace"></span>
+
+
+                                            <ul class="sub-menu__list">
+                                                <li>
+                                                    <a href="filters-mann.html" class="sub-menu__link"> Фильтры MANN
+                                                    </a>
+                                                    <span class="sub-menu__arrow arrow"></span>
+                                                    <ul class="sub-sub-menu__list">
+                                                        <li>
+                                                            <a href="air-filters.html"
+                                                                class="sub-sub-menu__link">Воздушные фильтры</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="oil-filters.html"
+                                                                class="sub-sub-menu__link">Масляные фильтры</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="fuel-filters.html"
+                                                                class="sub-sub-menu__link">Топливные фильтры</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="cabin-filters.html"
+                                                                class="sub-sub-menu__link">Салонные фильтры</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="sub-sub-menu__link">Наименование</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="sub-sub-menu__link">Наименование</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="hemo.html" class="sub-menu__link">Хемосил</a>
+                                                    <div class="sub-menu__arrow arrow"></div>
+                                                    <ul class="sub-sub-menu__list">
+                                                        <li>
+                                                            <a href="hemo211.html"
+                                                                class="sub-sub-menu__link">Хемосил 211</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="hemo411.html"
+                                                                class="sub-sub-menu__link">Хемосил 411</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="hemo225.html"
+                                                                class="sub-sub-menu__link">Хемосил 225</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="sibmaster.html" class="sub-menu__link">Мотосноуборды</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__mobile-form">
+                <form action="#" class="header-form">
+                    <div class="header-form-wrapper">
+                        <img src="img/search-icon.svg" alt="Search" class="header-form-icon" />
+                        <input type="text" class="header-form-type" />
+                    </div>
+                    <button class="btn header-form-btn">Найти</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <!-- content -->
+    <main class="main">
+        <section class="hemo">
+            <div class="container">
+                <div class="hemo__wrapper">
+                    <div class="hemo__top">
+                        <a href="index.html">Главная</a>
+                        <p>/</p>
+                        <a href="catalog.html">Каталог</a>
+                    </div>
+
+                    <div class="hemo__inner">
+                        <div class="aside wow animate__animated animate__fadeInLeft" id="aside">
+                            <ul class="aside__list">
+                                <li class="aside-open">
+                                    <div class="aside__link-wrapper aside__link">
+                                            Фильтры MANN
+                                    </div>
+                                    <ul class="aside__list-sub" id="mann">
+                                        <a href="air-filters.html" class="aside__list-sub-link">
+                                            <li class="aside__list-sub-item">
+                                                Воздушные фильтры
+                                            </li>
+                                        </a>
+                                        <a href="oil-filters.html" class="aside__list-sub-link">
+                                            <li class="aside__list-sub-item">
+                                                Масляные фильтры
+                                            </li>
+                                        </a>
+                                        <a href="fuel-filters.html" class="aside__list-sub-link">
+                                            <li class="aside__list-sub-item">
+                                                Топливные фильтры
+                                            </li>
+                                        </a>
+                                        <a href="cabin-filters.html" class="aside__list-sub-link">
+                                            <li class="aside__list-sub-item">
+                                                Салонные фильтры
+                                            </li>
+                                        </a>
+                                    </ul>
+                                    <div class="aside__link-wrapper aside__link">
+                                        Хемосил
+                                    </div>
+                                    <ul class="aside__list-sub" id="hemo">
+                                        <a href="hemo211.html" class="aside__list-sub-link">
+                                            <li class="aside__list-sub-item">
+                                                Хемосил 211
+                                            </li>
+                                        </a>
+                                        <a href="hemo411.html" class="aside__list-sub-link">
+                                            <li class="aside__list-sub-item">
+                                                Хемосил 411
+                                            </li>
+                                        </a>
+                                        <a href="hemo225.html" class="aside__list-sub-link">
+                                            <li class="aside__list-sub-item">
+                                                Хемосил 225
+                                            </li>
+                                        </a>
+                                    </ul>
+                                    <div class="aside__link-wrapper aside__link">
+                                        Мотосноуборды
+                                    </div>
+                                    <ul class="aside__list-sub">
+                                        <a href="" class="aside__list-sub-link">
+                                            <li class="aside__list-sub-item">
+                                                Воздушные фильтры
+                                            </li>
+                                        </a>
+                                        <a href="#" class="aside__list-sub-link">
+                                            <li class="aside__list-sub-item">
+                                                Воздушные фильтры
+                                            </li>
+                                        </a>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="hemo__content">
+                            <div class="hemo-title wow animate__animated animate__fadeInUp">
+                                Хемосил 211 / Chemosil 211
+                            </div>
+                            <div class="hemo__content-wrapper wow animate__animated animate__fadeInUp">
+                                <img src="img/hemo211.svg" alt="hemo">
+                                <div class="hemo__content-inner">
+                                    <div class="hemo__content-title">Производитель: LORD Germany GmbH</div>
+                                    <div class="hemo__content-price">Цена: по запросу</div>
+                                    <div class="hemo__content-subtitle">Оптовые и розничные продажи</div>
+                                    <div class="hemo__content-connect">
+                                        Уточнить стоимость и заказать товар можно
+                                        по тел. <br class="hemo-phone"> +7 (705) 103-46-61.<br>
+                                        Или оставьте заявку, и наш менеджер свяжется
+                                        с вами в ближайшее время.
+                                    </div>
+                                    <form class="hemo-form" id="hemo-form">
+                                        <h1 class="hemo-form-text invisible">Заявка Отправлена!</h1>
+                                        <input type="tel" id="inputPhone" class="hemo-form__input phone" placeholder="Номер телефона" data-phone-pattern />
+                                        <button class="hemo-form__btn" type="button">Заказать</button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="hemo-tabs">
+                                <!-- Tab links -->
+                                <div class="tab">
+                                    <button class="tablinks" onclick="openInfo(event, 'desc')"id="defaultOpen">Описание</button>
+                                    <button class="tablinks" onclick="openInfo(event, 'charac')">Характеристики</button>
+                                    <button class="tablinks" onclick="openInfo(event, 'doc')">Документы</button>
+                                </div>
+
+                                <!-- Tab content -->
+                                <div id="desc" class="tabcontent">
+                                    <p class="hemo-info">
+                                        Грунтовочный и склеивающий материал для эластомеров бутадиен-нитрильного каучука.
+                                    </p>
+                                    <ul class="hemo-list">
+                                        <li class="hemo-item hemo-info">
+                                            Представляет собой активируемый при нагревании склеивающий материал, используемый в качестве грунтовки для других покровных склеивающих материалов Хемосил или как однослойное покрытие для склеивания каучуковых нитрильных эластомерных соединений.
+                                        </li>
+                                        <li class="hemo-item hemo-info">
+                                            При использовании в качестве склеивающего вещества Хемосил 211 соединяет невулканизированные нитрильные эластомерные соединения с металлами и пластиками. Склеивание происходит в процессе вулканизации эластомера.
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div id="charac" class="tabcontent">
+                                    <div class="hemo-info">
+                                        <span class="hemo-info__accent">
+                                            Состав:
+                                        </span>
+                                        Полимеры и теплореактивные компоненты в органической системе растворителей.
+                                    </div>
+                                    <ul class="hemo-list">
+                                        <li class="hemo-item hemo-info">Внешний вид: жидкое вещество серого цвета;</li>
+                                        <li class="hemo-item hemo-info">Форма поставки: контейнеры 10/23 кг, баки 175кг;
+                                        </li>
+                                        <li class="hemo-item hemo-info">Хранение: не менее 12 месяцев в закрытых емкостях
+                                            при температуре не выше 25°C.</li>
+                                    </ul>
+                                    <table class="hemo-table">
+                                        <tr>
+                                            <th>Спецификации</th>
+                                            <th>Метод</th>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Содержание твердых частиц: 22.0 - 26.0 вес %
+                                            </td>
+                                            <td>
+                                                970074: Определение сухого остатка, 30 min при 130°C
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Вязкость при производстве: 90 - 170 мПаскаль
+                                            </td>
+                                            <td>
+                                                950055: Вискозиметр Брукфильда, Модель LVT Spindle 2, 30 об/мин, при
+                                                25°C
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Плотность: 0.92 - 0.96 г/мл
+                                            </td>
+                                            <td>
+                                                950014: Определение плотности при 20°C
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+
+                                <div id="doc" class="tabcontent">
+                                    <div class="hemo-docs__wrapper">
+                                        <a href="" class="hemo-docs__element">
+                                            <img src="img/file.svg" alt="">
+                                            Документ 1
+                                        </a>
+                                        <a href="" class="hemo-docs__element">
+                                            <img src="img/file.svg" alt="">
+                                            Документ 2
+                                        </a>
+                                        <a href="" class="hemo-docs__element">
+                                            <img src="img/file.svg" alt="">
+                                            Документ 3
+                                        </a>
+                                        <a href="" class="hemo-docs__element">
+                                            <img src="img/file.svg" alt="">
+                                            Документ 4
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hemo__menu-list wow animate__animated animate__fadeInUp">
+                                <p onclick="view()" class="hemo__menu-show">Показать все модели</p>
+                                <ul id="list">
+                                    <li>
+                                        <a href="">
+                                        С 10 050
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                        С 10 050
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="hemo-helper wow animate__animated animate__fadeInUp">
+                                <h2 class="hemo-helper__title">
+                                    Как оформить заказ
+                                </h2>
+                                <ol>
+                                    <li>Оставляйте заявку на сайте или по телефону.</li>
+                                    <li>Согласуйте детали заказа с нашим специалистом.</li>
+                                    <li>Внесите полную предоплату за заказ удобным способом.</li>
+                                    <li>Ожидайте доставку заказа оговоренным способом.</li>
+                                </ol>
+                            </div>
+                            <div class="hemo__form wow animate__animated animate__fadeInUp">
+                                <img src="img/form-face.svg" alt="">
+                                <form class="hemo__form-inner">
+                                    <h3>
+                                        Если Вы не нашли нужного товара
+                                        в каталоге - оставьте заявку,<br>
+                                        мы постараемся Вам помочь.
+                                    </h3>
+                                    <input type="text" placeholder="Ваше имя">
+                                    <input type="tel" id="inputPhoneForm" class="hemo-form__input phone" placeholder="Номер телефона" data-phone-pattern />
+                                    <input type="email" placeholder="E-mail">
+                                    <textarea name="" id="javascript:void(0)" cols="30" rows="10" placeholder="Что необходимо найти?"></textarea>
+                                    <button type="button"  onclick="return openFeedBackSign()">Отправить</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hemo__form wow animate__animated animate__fadeInUp">
+                <div class="hemo__left-side">
+                    <img src="img/form-face.svg" alt="">
+                    <h3>
+                        Если Вы не нашли нужного товара
+                        в каталоге - оставьте заявку,<br>
+                        мы постараемся Вам помочь.
+                    </h3>
+                </div>
+                <form class="hemo__form-inner">
+                    <h3>
+                        Если Вы не нашли нужного товара
+                        в каталоге - оставьте заявку,<br>
+                        мы постараемся Вам помочь.
+                    </h3>
+                    <input type="text" placeholder="Ваше имя">
+                    <input type="tel" id="inputPhoneForm" class="hemo-form__input phone" placeholder="Номер телефона" data-phone-pattern />
+                    <input type="email" placeholder="E-mail">
+                    <textarea name="" id="javascript:void(0)" cols="30" rows="10" placeholder="Что необходимо найти?"></textarea>
+                    <button type="button"  onclick="return openFeedBackSign()">Отправить</button>
+                </form>
+            </div>
+        </section>
+        <button class="arrow-up" onclick="return up()">
+            <img src="img/arrow-up.svg" alt="">
+        </button>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <a href="index.html">
+                    <img src="img/footer-logo.svg" alt="logo" class="footer-logo">
+                </a>
+                <div class="footer-inner">
+                    <div class="footer-contact">
+                        <a href="tel:+77051034661" class="footer-contact__link footer-contact__wrapper">
+                            <img src="img/tel.svg" alt="tel">
+                            <p>+7 (705) 103-46-61</p>
+                        </a>
+                        <a href="https://wa.me/87051034661" class="footer-contact__link footer-contact__wrapper">
+                            <img src="img/social.svg" alt="icon">
+                            <p>Написать на WhatsApp</p>
+                        </a>
+                        <a href="https://t.me/" class="footer-contact__link footer-contact__wrapper">
+                            <img src="img/telegram.svg" alt="icon">
+                            <p>Написать в Telegram</p>
+                        </a>
+                    </div>
+                    <div class="footer-location">
+                        <a href="mailto:mayllp1959@gmail.com" class="footer-location__link footer-contact__wrapper">
+                            <img src="img/email.svg" alt="mail">
+                            <p>mayllp1959@gmail.com</p>
+                        </a>
+                        <a href="#" class="footer-location__link footer-contact__wrapper">
+                            <img src="img/location.svg" alt="location">
+                            <p>г. Кокшетау, ул. Т. Сулейменова 25 А.</p>
+                        </a>
+                    </div>
+                    <div class="footer-nav">
+                        <a href="about.html">О компании</a>
+                        <a href="delivery.html">Доставка</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="modal-feedback" id="modal-feedback">
+        <div class="modal-feedback-backdrop" id='modal-feedback-backdrop' onclick="return closeFeedback()"></div>
+        <div class="modal-feedback-inner">
+            <div class="modal-feedback-top">Заявка отправлена!</div>
+            <div class="modal-feedback-wr">
+                <button class='modal-feedback-button' onclick="return closeFeedback()">Ок</button>
+            </div>
+        </div>
+    </div>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <!-- wow -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <!-- header scripts -->
+    <script src="js/header.js"></script>
+    <script src="js/menu.js"></script>
+    <!-- modal opens by clicking button send -->
+    <script src="js/modal.js"></script>
+    <!-- tabs -->
+    <script src="js/tabs.js"></script>
+    <!-- show more products -->
+    <script src="js/item.js"></script>
+    <!-- Form -->
+    <script src="js/itemForm.js"></script>
+    <!-- aside -->
+    <script src="js/aside.js"></script>
+    <!-- scroll up -->
+    <script src="js/scroll-up.js"></script>
+    <!-- init library animations -->
+    <script src="js/wow-init.js"></script>
+    <!-- validate phone numbers -->
+    <script src="js/validationNumberPhone.js"></script>
+</body>
+
+</html>

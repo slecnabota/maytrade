@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/about.min.css" />
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header wow animate__animated animate__fadeInDown">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="header-logo">
+                    <a href="index.html" class="header-logo__link">
+                        <img src="img/header-logo.svg" alt="Logo" class="header-logo" />
+                    </a>
+                </div>
+                <div class="menu" id="menu">
+                    <ul class="menu__list">
+                        <li>
+                            <a href="catalog.html" class="menu__link">
+                                <div class="menu__cross">
+                                    <span></span>
+                                </div>
+                                Каталог
+                            </a>
+                            <span class="arrow"></span>
+                            <ul class="sub-menu__list">
+                                <li>
+                                    <a href="filters-mann.html" class="sub-menu__link"> Фильтры MANN </a>
+                                    <span class="sub-menu__arrow arrow"></span>
+                                    <ul class="sub-sub-menu__list">
+                                        <li>
+                                            <a href="air-filters.html" class="sub-sub-menu__link">Воздушные фильтры</a>
+                                        </li>
+                                        <li>
+                                            <a href="oil-filters.html" class="sub-sub-menu__link">Масляные фильтры</a>
+                                        </li>
+                                        <li>
+                                            <a href="fuel-filters.html" class="sub-sub-menu__link">Топливные фильтры</a>
+                                        </li>
+                                        <li>
+                                            <a href="cabin-filters.html" class="sub-sub-menu__link">Салонные фильтры</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="sub-sub-menu__link">Наименование</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="sub-sub-menu__link">Наименование</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="hemo.html" class="sub-menu__link">Хемосил</a>
+                                    
+                                    <span class="sub-menu__arrow arrow"></span>
+                                    <ul class="sub-sub-menu__list">
+                                        <li>
+                                            <a href="hemo211.html" class="sub-sub-menu__link">Хемосил 211</a>
+                                        </li>
+                                        <li>
+                                            <a href="hemo411.html" class="sub-sub-menu__link">Хемосил 411</a>
+                                        </li>
+                                        <li>
+                                            <a href="hemo255.html" class="sub-sub-menu__link">Хемосил 225</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="sibmaster.html" class="sub-menu__link">Мотосноуборды</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <form action="#" class="header-form">
+                    <div class="header-form-wrapper">
+                        <img src="img/search-icon.svg" alt="Search" class="header-form-icon" />
+                        <input type="text" class="header-form-type" />
+                    </div>
+                    <button class="btn header-form-btn">Найти</button>
+                </form>
+                <nav class="header-links">
+                    <a href="about.html" class="header-link">О компании</a>
+                    <a href="delivery.html" class="header-link">Доставка и оплата</a>
+                </nav>
+                <a href="tel:+77051034661" class="header-callback">
+                    <p class="header-phone">+7 (705) 103-46-61</p>
+                    <span>Обратный звонок</span>
+                </a>
+                <div class="header__mobile-arrow">
+                    <span></span>
+                </div>
+                <div class="header__mobile">
+                    <div class="header__mobile-wrapper">
+                        <div class="header__mobile-top">
+                            <a href="tel:87051034661" class="header__mobile-num header-links">+7 (705) 103-46-61</a>
+                            <div class="header__mobile-burger">
+                                <nav class="header-links">
+                                    <a href="about.html" class="header-link">О компании</a>
+                                    <a href="delivery.html" class="header-link">Доставка и оплата</a>
+                                </nav>
+                                <button class="menu" id="menu">
+                                    <ul class="menu__list">
+                                        <li>
+                                            <div  class="menu__link" id="changeColor">
+                                                <div class="menu__cross">
+                                                    <span></span>
+                                                </div>
+                                                Каталог
+                                            </div>
+                                            <span class="arrow lesspace"></span>
+
+
+                                            <ul class="sub-menu__list">
+                                                <li>
+                                                    <a href="filters-mann.html" class="sub-menu__link"> Фильтры MANN
+                                                    </a>
+                                                    <span class="sub-menu__arrow arrow"></span>
+                                                    <ul class="sub-sub-menu__list">
+                                                        <li>
+                                                            <a href="air-filters.html"
+                                                                class="sub-sub-menu__link">Воздушные фильтры</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="oil-filters.html"
+                                                                class="sub-sub-menu__link">Масляные фильтры</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="fuel-filters.html"
+                                                                class="sub-sub-menu__link">Топливные фильтры</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="cabin-filters.html"
+                                                                class="sub-sub-menu__link">Салонные фильтры</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="sub-sub-menu__link">Наименование</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="sub-sub-menu__link">Наименование</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="hemo.html" class="sub-menu__link">Хемосил</a>
+                                                    <div class="sub-menu__arrow arrow"></div>
+                                                    <ul class="sub-sub-menu__list">
+                                                        <li>
+                                                            <a href="hemo211.html"
+                                                                class="sub-sub-menu__link">Хемосил 211</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="hemo411.html"
+                                                                class="sub-sub-menu__link">Хемосил 411</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="hemo225.html"
+                                                                class="sub-sub-menu__link">Хемосил 225</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="sibmaster.html" class="sub-menu__link">Мотосноуборды</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__mobile-form">
+                <form action="#" class="header-form">
+                    <div class="header-form-wrapper">
+                        <img src="img/search-icon.svg" alt="Search" class="header-form-icon" />
+                        <input type="text" class="header-form-type" />
+                    </div>
+                    <button class="btn header-form-btn">Найти</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <!-- content -->
+    <main class="main">
+        <section class="promo">
+            <h1 class="promo-title wow animate__animated animate__fadeInDown">О компании</h1>
+            <div class="promo-wrapper">
+                <div class="container__small">
+                    <div class="promo-info wow animate__animated animate__fadeInLeft">
+                        <div class="promo-heading">
+                            Наша компания специализируется на оптово-розничных
+                            продажах разных видов товаров от ведущих мировых
+                            производителей. Мы всегда стремимся к уникальности, и
+                            поэтому наш товар всегда эксклюзивный и редкий на рынке
+                            Казахстана. Мы поставляем товар как под заказ, так и с
+                            собственного склада. Работаем не только по Казахстану, но
+                            и со странами СНГ и ЕС.
+                        </div>
+                        <div class="promo-about-bg" style="display: none;"></div>
+                        <div class="promo-subheading">
+                            Компания «MAY-TRADE»- это поставщик, ориентированный,<br>
+                            на честность и открытость, способный найти индивидуальный
+                            подход к каждому клиенту. Наши специалисты отдела продаж
+                            помогут Вам принять правильное решение при выборе
+                            нашего товара. Наша задача - приложить максимум усилий,
+                            чтобы найти именно тот качественный товар, который
+                            необходим нашему клиенту и подходит под его потребности.
+                        </div>
+                    </div>
+                </div>
+                <div class="promo-about-bg wow animate__animated animate__fadeInRight"></div>
+            </div>
+        </section>
+        <section class="form">
+            <div class="form-background">
+                <div class="container">
+                    <div class="form-wrapper wow animate__animated animate__fadeInLeft">
+                        <div class="form-left-side">
+                            <img src="img/form-face.svg" alt="face" class="form-advisor">
+                            <h1 class="form-hidden">
+                                Если у Вас есть вопросы по работе компании, <br>
+                                наличию товара или доставке - оставьте заявку и наш 
+                                специалист свяжется с Вами в ближайше время
+                            </h1>
+                        </div>
+                        <div class="form-content">
+                            <h1>
+                                Если у Вас есть вопросы по работе компании, <br>
+                                наличию товара или доставке - оставьте заявку и наш 
+                                специалист свяжется с Вами в ближайше время
+                            </h1>
+                            <form class="form-main">
+                                <input type="text" class="form-space" placeholder="Ваше имя">
+                                <input type="tel" id="inputPhone" class="form-space phone" placeholder="Номер телефона"
+                                    data-phone-pattern />
+                                <input type="email" class="form-space" placeholder="E-mail">
+                                <textarea id="javascript:void(0)" name="" cols="30" rows="10" class="form-textspace"
+                                    placeholder="Что необходимо найти?"></textarea>
+                                <button type="button" class="form-btn"
+                                    onclick="return openFeedBackSign()">Отправить</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <button class="arrow-up" onclick="return up()">
+            <img src="img/arrow-up.svg" alt="">
+        </button>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <a href="index.html">
+                    <img src="img/footer-logo.svg" alt="logo" class="footer-logo">
+                </a>
+                <div class="footer-inner">
+                    <div class="footer-contact">
+                        <a href="tel:+77051034661" class="footer-contact__link footer-contact__wrapper">
+                            <img src="img/tel.svg" alt="tel">
+                            <p>+7 (705) 103-46-61</p>
+                        </a>
+                        <a href="https://wa.me/87051034661" class="footer-contact__link footer-contact__wrapper">
+                            <img src="img/social.svg" alt="icon">
+                            <p>Написать на WhatsApp</p>
+                        </a>
+                        <a href="https://t.me/" class="footer-contact__link footer-contact__wrapper">
+                            <img src="img/telegram.svg" alt="icon">
+                            <p>Написать в Telegram</p>
+                        </a>
+                    </div>
+                    <div class="footer-location">
+                        <a href="mailto:mayllp1959@gmail.com" class="footer-location__link footer-contact__wrapper">
+                            <img src="img/email.svg" alt="mail">
+                            <p>mayllp1959@gmail.com</p>
+                        </a>
+                        <a href="#" class="footer-location__link footer-contact__wrapper">
+                            <img src="img/location.svg" alt="location">
+                            <p>г. Кокшетау, ул. Т. Сулейменова 25 А.</p>
+                        </a>
+                    </div>
+                    <div class="footer-nav">
+                        <a href="about.html">О компании</a>
+                        <a href="delivery.html">Доставка</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="modal-feedback" id="modal-feedback">
+        <div class="modal-feedback-backdrop" id='modal-feedback-backdrop' onclick="return closeFeedback()"></div>
+        <div class="modal-feedback-inner">
+            <div class="modal-feedback-top">Заявка отправлена!</div>
+            <div class="modal-feedback-wr">
+                <button class='modal-feedback-button' onclick="return closeFeedback()">Ок</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/scroll-up.js"></script>
+    <script src="js/validationNumberPhone.js"></script>
+    <script src="js/wow-init.js"></script>
+</body>
+
+</html>
